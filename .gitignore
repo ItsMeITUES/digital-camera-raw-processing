@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# RAW and generated input data (do not commit large/private source images)
+*.CR2
+*.cr2
+*.CR3
+*.cr3
+data/*.tif
+data/*.tiff
+
+# Generated outputs
+results/report_outputs/
+results/campus_output.png
+results/campus_output.jpg
